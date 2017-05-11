@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+div{
+    display: flex;
+    width: 35%;
+    height: 25%;
+    justify-content: center;
+    
+}
+
+@media (min-width: 0px) and (max-width: 320px){
+	body{
+		background-image: url(../img/midnight-conversation_861064.jpg);
+		}
+}
+
+@media (min-width: 321px) and (max-width: 480px){
+    body{
+        background-image: url(../img/maxresdefault.jpg);
+    }
+    
+}
+
+@media (min-width:481px)and(max-width:1200px){
+    body{
+		background-image: url(../img/dawn.png);
+		}
+}
+
+@media (min-width:769px)and(max-width:1200px){
+}
+
+@media (min-width:1201px){
+    body{
+        background-image: url(../img/Landscape.jpg);
+		}
+    img{
+        
+    }
+}
